@@ -1,5 +1,5 @@
 import React from 'react'
-import UseContextProvider from './UseContextSample'
+import UseContextProvider from './UseContextProvider'
 import ChildFunction from './ChildFunction'
 
 function ParentFunction() {

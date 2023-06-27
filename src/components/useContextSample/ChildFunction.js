@@ -1,5 +1,5 @@
 import React from 'react'
-import { useInnerContext, useOuterContext } from './UseContextSample'
+import { useInnerContext, useOuterContext } from './UseContextProvider'
 
 function ChildFunction() {
   const value = useOuterContext()
