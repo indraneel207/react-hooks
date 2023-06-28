@@ -1,5 +1,6 @@
 import './App.css';
-import UseReducerSample from './components/UseReducerSample';
+import UseCallbackSample from './components/UseCallbackSample';
+// import UseReducerSample from './components/UseReducerSample';
 // import UseEffectSample from './components/UseEffectSample';
 // import UseMemoSample from './components/UseMemoSample';
 // import UseRefSample from './components/UseRefSample';
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseReducerSample/>
+        <UseCallbackSample/>
       </header>
     </div>
   );
