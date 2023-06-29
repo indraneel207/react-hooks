@@ -1,5 +1,6 @@
 import './App.css';
-import UseDeferredValueSample from './components/UseDeferredValueSample';
+// import UseDeferredValueSample from './components/UseDeferredValueSample';
+import UseImperativeHandleSample from './components/UseImperativeHandleSample/Parent';
 // import CustomHookSample from './components/CustomHookSample';
 // import UseLayoutEffectSample from './components/UseLayoutEffectSample';
 // import UseTransitionSample from './components/UseTransitionSample';
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseDeferredValueSample/>
+        <UseImperativeHandleSample/>
       </header>
     </div>
   );
